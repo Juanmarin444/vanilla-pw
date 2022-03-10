@@ -12,6 +12,9 @@
     />
     <link rel="stylesheet" href="./styles.css">
     <title>Juan Marin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="container" id="container">
@@ -22,7 +25,7 @@
           <h1 class="subHeader">Take a look at my Portfolio</h1>
         </div>
         <div class="blend"></div>
-        <video src="./video.mp4" class="video-background" muted preload='auto' playsInline webkit-playsinline="true" sophis-video-control="true"></video>
+        <video class="video-background" src="./video.mp4" muted preload='auto' playsInline webkit-playsinline="true" sophis-video-control="true"></video>
       </main>
       <section class="section about">
         <h1>WHO IS THIS GUY?</h1>
@@ -311,9 +314,24 @@
             </div>
           </div>
         </div>
+
+        <h1>Front-end Projects</h1>
+        <div class="projectsType">
+          <div class="project">
+            <img class="projectGif" src="./assets/projects/iPhone13Pro.gif" alt="iPhone13 Pro website" />
+            <div class="projectInfo">
+              <h2 class="projectName">iPhone 13 Pro</h2>
+              <h3 class="projectDescription">A cloned version of Apple's iPhone 13 Pro Website.</h3>
+              <div class="projectButtons">
+                <a href="https://juanmarin444.github.io/iPhone-Scroll-Animation/" class="projectButton" target="_blank" rel="noreferrer">Website</a>
+                <a href="https://github.com/Juanmarin444/iPhone-Scroll-Animation" class="projectButton" target="_blank" rel="noreferrer">GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
-      <div class="section contact">
+      <section class="section contact">
         <h1>Get In Touch</h1>
 
         <div class="contactContent">
@@ -339,7 +357,7 @@
             </form>
           </div>
         </div>
-      </div>
+      </section>
       <footer class="footer">
         <a href="https://juanmarin.netlify.app/" target="_blank" rel="noopener noreferrer">
           Powered by
